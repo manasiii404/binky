@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Portfolio</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="glass-card">
+            <h1 class="main-title">🚀 Project Portfolio</h1>
+            <p class="subtitle">Showcasing Innovation & Excellence</p>
+
+            <!-- Navigation Buttons -->
+            <div class="nav-buttons">
+                <button class="nav-btn active" data-section="sdp">
+                    <span class="icon">💻</span>
+                    <span class="label">Software Development</span>
+                </button>
+                <button class="nav-btn" data-section="edi">
+                    <span class="icon">🔧</span>
+                    <span class="label">Engineering Design</span>
+                </button>
+                <button class="nav-btn" data-section="dt">
+                    <span class="icon">📚</span>
+                    <span class="label">Design Thinking</span>
+                </button>
+                <button class="nav-btn" data-section="vit">
+                    <span class="icon">🎓</span>
+                    <span class="label">VIT Course Projects</span>
+                </button>
+            </div>
+
+            <!-- Sections -->
+            <div class="sections-container">
+                <!-- SDP Section -->
+                <div class="section active" id="sdp">
+                    <h2 class="section-title">Software Development Projects</h2>
+                    <div class="projects-grid">
+                        <div class="project-card">
+                            <div class="project-header">
+                                <h3>E-Commerce Platform</h3>
+                                <span class="badge">React + Node.js</span>
+                            </div>
+                            <p class="project-desc">Full-stack e-commerce solution with payment gateway integration, real-time inventory management, and AI-powered product recommendations.</p>
+                            <div class="project-tags">
+                                <span class="tag">MongoDB</span>
+                                <span class="tag">Express</span>
+                                <span class="tag">Stripe API</span>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="project-header">
+                                <h3>Task Management System</h3>
+                                <span class="badge">Vue.js + Firebase</span>
+                            </div>
+                            <p class="project-desc">Collaborative task manager with real-time updates, drag-and-drop interface, and team analytics dashboard.</p>
+                            <div class="project-tags">
+                                <span class="tag">Firestore</span>
+                                <span class="tag">WebSockets</span>
+                                <span class="tag">PWA</span>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="project-header">
+                                <h3>Social Media Analytics</h3>
+                                <span class="badge">Python + Django</span>
+                            </div>
+                            <p class="project-desc">Advanced analytics platform for tracking social media metrics, sentiment analysis, and automated reporting.</p>
+                            <div class="project-tags">
+                                <span class="tag">NLP</span>
+                                <span class="tag">PostgreSQL</span>
+                                <span class="tag">Chart.js</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- EDI Section -->
+                <div class="section" id="edi">
+                    <h2 class="section-title">Engineering Design Innovation Projects</h2>
+                    <div class="projects-grid">
+                        <div class="project-card">
+                            <div class="project-header">
+                                <h3>IoT Smart Home System</h3>
+                                <span class="badge">Arduino + ESP32</span>
+                            </div>
+                            <p class="project-desc">Integrated home automation system with voice control, energy monitoring, and mobile app interface for remote management.</p>
+                            <div class="project-tags">
+                                <span class="tag">MQTT</span>
+                                <span class="tag">Sensors</span>
+                                <span class="tag">Alexa Integration</span>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="project-header">
+                                <h3>Autonomous Delivery Robot</h3>
+                                <span class="badge">ROS + Computer Vision</span>
+                            </div>
+                            <p class="project-desc">Self-navigating delivery robot using SLAM algorithms, obstacle detection, and GPS-based path planning.</p>
+                            <div class="project-tags">
+                                <span class="tag">LiDAR</span>
+                                <span class="tag">OpenCV</span>
+                                <span class="tag">Raspberry Pi</span>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="project-header">
+                                <h3>Renewable Energy Monitor</h3>
+                                <span class="badge">IoT + Cloud</span>
+                            </div>
+                            <p class="project-desc">Real-time monitoring system for solar panels with predictive maintenance and efficiency optimization algorithms.</p>
+                            <div class="project-tags">
+                                <span class="tag">AWS IoT</span>
+                                <span class="tag">ML Models</span>
+                                <span class="tag">Dashboard</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- DT Section -->
+                <div class="section" id="dt">
+                    <h2 class="section-title">Design Thinking Research Papers</h2>
+                    <div class="projects-grid">
+                        <div class="project-card">
+                            <div class="project-header">
+                                <h3>UX Research in EdTech</h3>
+                                <span class="badge">Published - IEEE</span>
+                            </div>
+                            <p class="project-desc">Comprehensive study on user experience patterns in online learning platforms, focusing on engagement metrics and accessibility.</p>
+                            <div class="project-tags">
+                                <span class="tag">User Testing</span>
+                                <span class="tag">A/B Testing</span>
+                                <span class="tag">Heuristics</span>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="project-header">
+                                <h3>AI Ethics Framework</h3>
+                                <span class="badge">Published - ACM</span>
+                            </div>
+                            <p class="project-desc">Proposed framework for ethical AI development with focus on bias detection, transparency, and accountability in ML systems.</p>
+                            <div class="project-tags">
+                                <span class="tag">Ethics</span>
+                                <span class="tag">Fairness</span>
+                                <span class="tag">Governance</span>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="project-header">
+                                <h3>Sustainable Design Patterns</h3>
+                                <span class="badge">Published - Springer</span>
+                            </div>
+                            <p class="project-desc">Analysis of eco-friendly design methodologies in software engineering and their impact on energy consumption.</p>
+                            <div class="project-tags">
+                                <span class="tag">Green Computing</span>
+                                <span class="tag">Sustainability</span>
+                                <span class="tag">Metrics</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- VIT Section -->
+                <div class="section" id="vit">
+                    <h2 class="section-title">VIT Course Projects</h2>
+                    <div class="projects-grid">
+                        <div class="project-card">
+                            <div class="project-header">
+                                <h3>Hospital Management System</h3>
+                                <span class="badge">DBMS Course</span>
+                            </div>
+                            <p class="project-desc">Complete database design and implementation for hospital operations including patient records, appointments, and billing.</p>
+                            <div class="project-tags">
+                                <span class="tag">MySQL</span>
+                                <span class="tag">Normalization</span>
+                                <span class="tag">Triggers</span>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="project-header">
+                                <h3>CPU Scheduling Simulator</h3>
+                                <span class="badge">OS Course</span>
+                            </div>
+                            <p class="project-desc">Interactive simulator for various CPU scheduling algorithms with performance comparison and visualization.</p>
+                            <div class="project-tags">
+                                <span class="tag">C++</span>
+                                <span class="tag">Algorithms</span>
+                                <span class="tag">Gantt Charts</span>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="project-header">
+                                <h3>Network Protocol Analyzer</h3>
+                                <span class="badge">CN Course</span>
+                            </div>
+                            <p class="project-desc">Packet sniffer and analyzer tool for studying network protocols, traffic patterns, and security vulnerabilities.</p>
+                            <div class="project-tags">
+                                <span class="tag">Wireshark</span>
+                                <span class="tag">TCP/IP</span>
+                                <span class="tag">Python</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
