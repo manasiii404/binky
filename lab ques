@@ -1,0 +1,38 @@
+Lab Questions CNT
+UNIT 1
+Unit-I Question 1a:
+Set up a small wired network of 2–4 computers using Hub/Switch including preparation of cables.
+Unit-I Question 1b:
+Set up a small wireless network using an access point and perform networking commands:
+ping, pathping, ipconfig/ifconfig, arp, netstat, nbtstat, nslookup, route, traceroute/tracert, nmap.
+
+UNIT 2
+Unit-II Question 2a:
+Write a program to find the shortest path using Dijkstra’s algorithm for a given network graph.
+Unit-II Question 2b:
+Using the same network, generate OSPF-style routing table entries based on Link State Routing
+
+UNIT 3
+Unit-III Question 3a:
+Write TCP and UDP client–server programs to exchange “Hello” messages and implement file transfer (TCP) and trigonometric calculator (UDP).
+Unit-III Question 3b:
+Capture Ethernet, IP, TCP, and UDP packets using Wireshark and analyze their headers.
+
+UNIT 4
+Unit-IV Question 4a:
+Design a website using Bootstrap with toggleable/dynamic tabs or pills.
+Unit-IV Question 4b:
+Use jQuery to dynamically show sections: SDP, EDI, DT, and VIT course projects.
+
+UNIT 5
+Unit-V Question 5a:
+Develop a responsive React frontend for entering MSE (30%) and ESE (70%) marks for four subjects.
+Unit-V Question 5b:
+Implement Spring Boot + MySQL/MongoDB/Oracle backend to compute and display semester results.
+
+UNIT 6
+Unit-VI Question 6a:
+Design a responsive online bookstore (Home, Login, Catalogue, Registration) using React.
+Unit-VI Question 6b:
+Implement backend using Node.js/PHP with MySQL/MongoDB/Oracle for user authentication and book storage.
+
